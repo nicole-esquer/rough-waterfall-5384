@@ -21,6 +21,5 @@ RSpec.describe 'customer show page' do
       expect(page).to have_content("Item 2")
       expect(page).to_not have_content("Item 3")
       expect(page).to have_content("Member of Supermarket")
-      
    end
 end
